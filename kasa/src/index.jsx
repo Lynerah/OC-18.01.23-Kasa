@@ -8,6 +8,7 @@ import Error from './components/Error';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Footer from './components/Footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const container = document.getElementById('root');
