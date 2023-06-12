@@ -1,0 +1,35 @@
+.card-container{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    border-radius: 10px;
+    width: 340px;
+    height: 340px;
+
+}
+
+.card-list-box{
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    background: #F7F7F7;
+    border-radius: 25px;
+    margin: 0 100px;
+    padding: 56px 50px;
+    justify-content: space-between;
+}
+
+.card_item{
+    height: 100%!important;
+}
+
+.card_item_img{
+    height: 100%!important;
+}
+
+.overlay_container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.overlay_text{
+    text-align: start;
+}

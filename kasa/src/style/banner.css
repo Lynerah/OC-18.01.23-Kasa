@@ -1,0 +1,22 @@
+.banner{
+ background-image: url("../../src/assets/banner-home.png");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ height: 223px;
+ margin-right: 100px;
+ margin-left: 100px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+border-radius: 25px;
+}
+
+
+.banner_text{
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height:  68px;
+color: #FFFFFF;
+}

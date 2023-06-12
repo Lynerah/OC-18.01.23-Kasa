@@ -1,28 +1,34 @@
-import { Link } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 import '../../style/header.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import logo from '../../assets/logo.svg';
+import "../../style/header.css";
+import Banner from '../Banner/index';
 
- 
 function Header() {
     return (
-        // <nav>
-        //     <a href="#"><img className='' src="./assets/LOGO.svg" alt="Logo" /></a>
-        //     <Link to="/">Accueil</Link>
-        //     <Link to="/about">About Kasa</Link>
-        // </nav>
+
 <>
 
-      <Navbar bg="light" variant="light">
+      <Navbar className='nav_container'>
         <Container>
-            <Navbar.Brand to="/"><img className='' src="./assets/LOGO.svg" alt="Logo" /></Navbar.Brand>
-            <Nav className="me-auto">
-            <Nav.Link><Link to="/">Accueil</Link></Nav.Link>
-            <Nav.Link><Link to="/about">About Kasa</Link></Nav.Link>
+        <Link to="/">
+            <img className="nav_logo" src={logo} alt="Logo" />
+        </Link>          
+        <Nav className="nav_list">
+        <NavLink to="/" exact className="nav_list_item" activeClassName="active_nav_link">
+            Accueil
+          </NavLink>
+          <NavLink to="/about" className="nav_list_item" activeClassName="active_nav_link">
+            About Kasa
+          </NavLink>
             </Nav>
         </Container>
       </Navbar>
+      <Banner></Banner>
+
     </>
 
     )

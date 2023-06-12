@@ -1,12 +1,12 @@
-import { Link } from 'react-router-dom'
+import '../../style/footer.css'
+import logo from '../../assets/logo-footer.svg';
  
 function Footer() {
     return (
-        <nav>
-            <h3>My footer</h3>
-            <Link to="/">Accueil</Link>
-            <Link to="/survey">Questionnaire</Link>
-        </nav>
+        <footer>
+            <img className="footer_logo" src={logo} alt="Logo" />
+            <p className='footer_text'>© 2020 Kasa. All rights reserved</p>
+        </footer>
     )
 }
 
