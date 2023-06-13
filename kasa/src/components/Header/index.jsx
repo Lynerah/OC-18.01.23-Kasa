@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from '../../assets/logo.svg';
 import "../../style/header.css";
-import Banner from '../Banner/index';
+
 
 function Header() {
     return (
@@ -27,7 +27,6 @@ function Header() {
             </Nav>
         </Container>
       </Navbar>
-      <Banner></Banner>
 
     </>
 

@@ -1,0 +1,42 @@
+.error-page_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+     margin: 169px 0;
+}
+
+.error-page_title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 288px;
+    line-height: 411px;
+    color: #FF6060;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 66px;
+}
+
+.error-page_text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 182px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 51px;
+    color: #FF6060;
+
+}
+
+.error-page_link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: flex-end;
+    text-decoration-line: underline;
+    color: #FF6060;
+}
