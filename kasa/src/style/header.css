@@ -1,22 +1,27 @@
-.nav_container{
-    padding-top: 40px!important;
+.navbar{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-bottom: 44px;
+}
+
+.navbar-nav_list{
+    display: flex;
+    list-style: none;
+    gap: 56px;
 }
 
 .nav_logo{
     height: 68px;
 }
 
-.nav_list{
-gap: 16px;
-}
-.nav_list_item{
-    color: #FF6060!important;
+.nav_item_link{
+    color: #FF6060;
     font-style: normal;
-font-weight: 500!important;
-font-size: 24px!important;
-line-height: 34px;
-
-text-decoration: none; /* Ajout de la propriété CSS pour supprimer le soulignement */
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    text-decoration: none; /* Ajout de la propriété CSS pour supprimer le soulignement */
 }
 
 .active{

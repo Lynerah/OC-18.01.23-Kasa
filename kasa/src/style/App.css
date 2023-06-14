@@ -37,3 +37,10 @@
     transform: rotate(360deg);
   }
 }
+
+.banner-image{
+  background-image: url("../../src/assets/banner-home.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

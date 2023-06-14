@@ -1,34 +1,26 @@
 import { NavLink, Link } from 'react-router-dom'
 import '../../style/header.css';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+
 import logo from '../../assets/logo.svg';
 import "../../style/header.css";
 
 
 function Header() {
     return (
+      <nav className="navbar">
+      <Link to="/" className="navbar-logo">
+        <img className="nav_logo" src={logo} alt="Logo" />
+      </Link>
+      <ul className="navbar-nav_list">
+        <li className="nav-item">
+          <NavLink to="/" exact className="nav_item_link" activeClassName="active_nav_link">Home</NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink to="/about" exact className="nav_item_link" activeClassName="active_nav_link">About</NavLink>
+        </li>
+      </ul>
+    </nav>
 
-<>
-
-      <Navbar className='nav_container'>
-        <Container>
-        <Link to="/">
-            <img className="nav_logo" src={logo} alt="Logo" />
-        </Link>          
-        <Nav className="nav_list">
-        <NavLink to="/" exact className="nav_list_item" activeClassName="active_nav_link">
-            Accueil
-          </NavLink>
-          <NavLink to="/about" className="nav_list_item" activeClassName="active_nav_link">
-            About Kasa
-          </NavLink>
-            </Nav>
-        </Container>
-      </Navbar>
-
-    </>
 
     )
 }

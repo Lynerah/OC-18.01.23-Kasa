@@ -1,0 +1,20 @@
+.accordion_container{
+    max-width: 2023px;
+    width: 75%;
+    margin: auto;
+}
+
+.accordion_list-item{
+
+     border-radius: 5px;
+    /* color: #fff; */
+    cursor: pointer;
+    border: none;
+    margin-bottom: 10px;
+}
+
+
+.accordion-button{
+background: #FF6060;
+color: #fff;
+}

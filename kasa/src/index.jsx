@@ -8,21 +8,20 @@ import Error from './components/Error';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Footer from './components/Footer';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const container = document.getElementById('root');
 const root = createRoot(container); // createRoot(container!) if you use TypeScript
 root.render(
 <Router>
-		<Header></Header>
-		<Routes>
+	<Header></Header>
+	<Routes>
 		<Route exact path="/" element={<App />} />
-			<Route path="/about" element={<About />} />
+		<Route path="/about" element={<About />} />
 		<Route path="*" element={<Error />} />
-</Routes>
-<Footer></Footer>
-		</Router>
+	</Routes>
+	<Footer></Footer>
+</Router>
 );
 
 

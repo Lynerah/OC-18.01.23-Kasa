@@ -1,11 +1,9 @@
 .banner{
- background-image: url("../../src/assets/banner-home.png");
+ /* background-image: url("../../src/assets/banner-home.png");
  background-repeat: no-repeat;
  background-size: cover;
- background-position: center;
+ background-position: center; */
  height: 223px;
- margin-right: 100px;
- margin-left: 100px;
  display: flex;
  justify-content: center;
  align-items: center;
