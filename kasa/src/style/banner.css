@@ -1,13 +1,10 @@
 .banner{
- /* background-image: url("../../src/assets/banner-home.png");
- background-repeat: no-repeat;
- background-size: cover;
- background-position: center; */
  height: 223px;
  display: flex;
  justify-content: center;
  align-items: center;
 border-radius: 25px;
+
 }
 
 
