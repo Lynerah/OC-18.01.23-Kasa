@@ -1,7 +1,7 @@
 // import React, { useState } from 'react';
-// import arrowUpIcon from '../../assets/arrow-up.svg';
-// import arrowDownIcon from '../../assets/arrow-down.svg';
-// import '../../style/accordion.css'
+import arrowUpIcon from '../../assets/arrow-up.svg';
+import arrowDownIcon from '../../assets/arrow-down.svg';
+import '../../style/accordion.css'
 
 // function Accordion() {
 //   const [isOpen, setIsOpen] = useState(false);
@@ -41,16 +41,30 @@ function Accordion({ title, content }) {
   const toggleAccordion = () => {
     setIsOpen(!isOpen);
   };
-
+  console.log('Valeur actuelle de isOpen :', isOpen);
   return (
     <div className="accordion">
-      <div className="accordion-item" style={{ width: '80%' }}>
+      <div className="accordion-item accordion-container" style={{ width: '80%' }}>
         <div className="accordion-content">
-          <h3 className="accordion-title" onClick={toggleAccordion}>
-            {title}
+          <h3 className="accordion-title">
+          {title}
+           
           </h3>
-          {isOpen && <div className="accordion-body">{content}</div>}
+          <button className="accordion-btn" onClick={toggleAccordion}>
+          {isOpen ? (
+              <img src={arrowUpIcon} alt="Arrow Up" className="accordion-icon" />
+            ) : (
+              <img src={arrowDownIcon} alt="Arrow Down" className="accordion-icon" />
+            )}
+          </button>
+          
         </div>
+        {isOpen && (
+          <div className="accordion-body">
+            <p>Contenu de l'Accordion</p>
+          </div>
+        )
+        }
       </div>
     </div>
   );

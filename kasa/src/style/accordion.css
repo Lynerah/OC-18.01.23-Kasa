@@ -10,6 +10,10 @@
     border-radius: 5px;
 }
 
+.accordion-content{
+    display: flex;
+    justify-content: space-between;
+}
 .accordion-title{
 
     display: flex;
@@ -28,12 +32,14 @@
     background: #F7F7F7;
     border-radius:  5px;
     position: relative;
-    bottom: 5px;
-    z-index: -1;
     color: #FF6060;
 }
 
 .accordion-body p{
     padding: 20px 18px;
     margin: 0;
+}
+
+.accordion-list{
+    margin: 33px;
 }
