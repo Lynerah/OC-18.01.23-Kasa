@@ -1,8 +1,8 @@
 import React from 'react';
-import Carousel from '../components/Carousel';
-import Accordion from '../components/Accordion';
+import Carousel from '../../components/Carousel';
+import Accordion from '../../components/Accordion';
 import { useParams } from 'react-router-dom';
- import cardData from '../data.json';
+ import cardData from '../../data.json';
 
 
 function ProductDetail() {

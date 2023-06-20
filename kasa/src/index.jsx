@@ -8,7 +8,7 @@ import Error from './components/Error';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Footer from './components/Footer';
-
+import ProductDetail from './pages/Details/details-advertisement.jsx';
 
 const container = document.getElementById('root');
 const root = createRoot(container); // createRoot(container!) if you use TypeScript
@@ -18,6 +18,7 @@ root.render(
 	<Routes>
 		<Route exact path="/" element={<App />} />
 		<Route path="/about" element={<About />} />
+		<Route path="/product/:id" element={<ProductDetail />} /> 
 		<Route path="*" element={<Error />} />
 	</Routes>
 	<Footer></Footer>
