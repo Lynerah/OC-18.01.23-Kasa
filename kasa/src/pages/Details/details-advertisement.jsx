@@ -21,8 +21,7 @@ import { useParams } from 'react-router-dom';
   
   
   function ProductDetail() {
-    const { id } = useParams(); // Utilisez le hook useParams pour obtenir la valeur de l'ID du produit
-    
+    const { id } = useParams(); 
     const product = cardData.find((card) => card.id === id);
     const rating = product.rating;
 

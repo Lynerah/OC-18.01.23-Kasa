@@ -76,13 +76,13 @@ color: #FF6060;
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url('../assets/star-inactive.svg'); /* Remplacez l'URL par le chemin vers votre icône d'étoile vide */
+    background-image: url('../assets/star-inactive.svg'); 
     background-repeat: no-repeat;
     background-size: cover;
-    margin-right: 5px; /* Ajustez la marge entre les étoiles selon vos besoins */
+    margin-right: 5px; 
   }
   
   .star.filled {
-    background-image: url('../assets/star-active.svg'); /* Remplacez l'URL par le chemin vers votre icône d'étoile remplie */
+    background-image: url('../assets/star-active.svg'); 
   }
   
