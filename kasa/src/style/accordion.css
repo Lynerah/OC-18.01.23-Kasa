@@ -8,6 +8,7 @@
 .accordion-container{
     background: #FF6060;
     border-radius: 5px;
+    width: 80%;
 }
 
 .accordion-content{

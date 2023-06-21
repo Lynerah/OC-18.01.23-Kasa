@@ -43,8 +43,8 @@ function Accordion({ title, content }) {
   };
   console.log('Valeur actuelle de isOpen :', isOpen);
   return (
-    <div className="accordion">
-      <div className="accordion-item accordion-container" style={{ width: '80%' }}>
+    <div className="accordion accordion-product">
+      <div className="accordion-item accordion-container accordion-product-item">
         <div className="accordion-content">
           <h3 className="accordion-title">
           {title}
