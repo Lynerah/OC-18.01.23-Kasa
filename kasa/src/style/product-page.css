@@ -1,0 +1,88 @@
+.host_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.host_info{ 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.host_name{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+    width: 93px;
+    color: #FF6060;
+}
+.host_img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: #C4C4C4;
+}
+
+.product-info_container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+
+}
+
+.product-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product_title{
+    width: 100%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 26px;
+    display: flex;
+    align-items: flex-end;
+    color: #FF6060;
+    margin: 0;
+}
+
+.product_location{
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+display: flex;
+align-items: flex-end;
+
+color: #FF6060;
+
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+  }
+  
+  .star {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('../assets/star-inactive.svg'); /* Remplacez l'URL par le chemin vers votre icône d'étoile vide */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 5px; /* Ajustez la marge entre les étoiles selon vos besoins */
+  }
+  
+  .star.filled {
+    background-image: url('../assets/star-active.svg'); /* Remplacez l'URL par le chemin vers votre icône d'étoile remplie */
+  }
+  

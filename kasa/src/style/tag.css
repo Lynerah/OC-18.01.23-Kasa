@@ -20,24 +20,4 @@ color: #FFFFFF;
 
 }
 
-.product_title{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 26px;
-    display: flex;
-    align-items: flex-end;
-    color: #FF6060;
-}
 
-.product_location{
-    font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 26px;
-display: flex;
-align-items: flex-end;
-
-color: #FF6060;
-
-}
