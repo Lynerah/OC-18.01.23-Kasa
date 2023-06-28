@@ -14,6 +14,8 @@ const container = document.getElementById('root');
 const root = createRoot(container); // createRoot(container!) if you use TypeScript
 root.render(
 <Router>
+	<div className='body_container'>
+
 	<Header></Header>
 	<Routes>
 		<Route exact path="/" element={<App />} />
@@ -21,6 +23,7 @@ root.render(
 		<Route path="/product/:id" element={<ProductDetail />} /> 
 		<Route path="*" element={<Error />} />
 	</Routes>
+	</div>
 	<Footer></Footer>
 </Router>
 );

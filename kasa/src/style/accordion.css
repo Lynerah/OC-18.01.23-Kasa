@@ -44,3 +44,21 @@
 .accordion-list{
     margin: 33px;
 }
+
+@media screen and (max-width: 768px) {
+    .accordion-container{
+        width: 100%;
+    }
+
+    .accordion-list{
+        margin: 20px 0;
+    }
+    .accordion-btn {
+        display: flex;
+        align-items: center;
+    }
+    .accordion-icon{
+        width: 18px;
+    height: 18px;
+    }
+}

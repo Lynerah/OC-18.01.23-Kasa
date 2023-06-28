@@ -61,7 +61,7 @@ function Accordion({ title, content }) {
         </div>
         {isOpen && (
           <div className="accordion-body">
-            <p>Contenu de l'Accordion</p>
+            <p>{content}</p>
           </div>
         )
         }

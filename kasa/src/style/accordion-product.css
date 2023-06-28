@@ -1,6 +1,8 @@
 .accordion_product_container{
     display: flex;
-justify-content: space-between;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 76px;
 }
 
 .accordion_product_container .accordion-product{
@@ -11,6 +13,24 @@ align-items: center;
 
 .accordion_product_container .accordion-product-item{
     width: 100%;
-    /* height: 52px; */
+}
 
+@media screen and (max-width: 768px){
+    .accordion_product_container {
+        flex-wrap: wrap;
+    }
+    .accordion_product_container .accordion-product {
+        width: 100%;
+    }
+
+    .accordion-content {
+        height: 30px;
+    }
+    .accordion-title {
+        font-size: 13px;
+        line-height: 18.54px;
+        margin-left: 12px;
+        align-items: center;
+        padding: 0;
+    }
 }

@@ -1,10 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;1,500;1,600;1,700;1,800&display=swap');
 
-body {
+*{
+  font-family: Montserrat;
+}
+
+body{
+  margin: 0;
+}
+
+.body_container {
 margin-top: 40px;
 margin-left: 100px;
 margin-right: 100px;
+min-height: 67vh;
 }
 
-code {
-  font-family: Montserrat;
+
+@media screen and (max-width: 768px){
+  body{
+    margin: 0;
+  }
+  .body_container{
+    margin: 20px;
+  }
+  
 }

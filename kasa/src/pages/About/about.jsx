@@ -1,11 +1,11 @@
-import Banner from '../../components/Banner/index.jsx';
+import BannerAbout from '../../components/Banner-about/index.jsx';
 import AccordionList from '../../components/Accordion-list/index.jsx';
-import '../../style/about.css'
+import '../../style/banner-about.css'
 
 function About() {
     return (
         <div>
-            <Banner></Banner>
+            <BannerAbout></BannerAbout>
             <AccordionList></AccordionList>
         </div>
     )

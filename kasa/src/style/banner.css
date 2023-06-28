@@ -6,7 +6,12 @@
 border-radius: 25px;
 
 }
-
+.banner-image{
+    background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0,0,0, .2)), url("../../src/assets/banner-home.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 
 .banner_text{
 font-style: normal;
@@ -14,4 +19,20 @@ font-weight: 500;
 font-size: 48px;
 line-height:  68px;
 color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px ){
+    .banner{
+        height: 111px;
+       border-radius: 10px;
+       justify-content: flex-start;
+       
+       }
+       .banner_text{
+        font-size: 24px;
+        line-height:  24px;
+        width: 50%;
+        text-align: start;
+        margin-left: 16px;
+        }
 }

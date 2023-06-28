@@ -1,4 +1,4 @@
-import '../../style/App.css';
+// import '../../style/App.css';
 import CardItem from '../../components/Card/index';
 import Banner from '../../components/Banner/index.jsx';
 

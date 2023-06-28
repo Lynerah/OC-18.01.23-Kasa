@@ -67,3 +67,15 @@
     background-color: #333;
   }
   
+  @media screen and (max-width: 768px) {
+    .carousel {
+      height: 255px; 
+    }
+    .carousel button {
+      width: 24px;
+      height: 24px;
+    }
+    .bullet-points {
+      display: none;
+    }
+  }

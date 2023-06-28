@@ -40,3 +40,25 @@
     text-decoration-line: underline;
     color: #FF6060;
 }
+
+@media screen and (max-width: 768px) {
+    .error-page_title{
+        font-size: 96px;
+        line-height: 136.9px;
+        margin-bottom: 11px;
+    }
+
+    .error-page_text{
+margin-left: 37px;
+margin-right: 37px;
+        margin-bottom: 133px;
+        font-size: 18px;
+        line-height: 25.67px;
+    text-align: center;
+    }
+    .error-page_link{
+        font-size: 14px;
+        line-height: 19.96px;
+
+    }
+}
