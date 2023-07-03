@@ -5,9 +5,11 @@ import '../../style/accordion.css'
 import React, { useState } from 'react';
 
 function Accordion({ title, content }) {
+  // Initialise l'état isOpen à false en utilisant le hook useState
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleAccordion = () => {
+    // Inverse la valeur de isOpen lorsqu'on appelle cette fonction
     setIsOpen(!isOpen);
   };
   console.log('Valeur actuelle de isOpen :', isOpen);

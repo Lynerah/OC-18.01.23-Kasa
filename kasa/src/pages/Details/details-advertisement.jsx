@@ -7,6 +7,7 @@ import { useParams } from 'react-router-dom';
   import '../../style/accordion-product.css';
   import '../../style/product-page.css';
 
+  // Fonction pour rendre les étoiles de notation
   function renderRatingStars(rating) {
     const stars = [];
     for (let i = 1; i <= 5; i++) {
@@ -25,6 +26,7 @@ import { useParams } from 'react-router-dom';
     const product = cardData.find((card) => card.id === id);
     const rating = product.rating;
 
+    // Si le produit n'est pas trouvé, afficher un message d'erreur
     if (!product) {
       return <div>Produit non trouvé.</div>;
     }

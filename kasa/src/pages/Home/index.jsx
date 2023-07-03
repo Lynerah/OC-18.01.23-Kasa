@@ -6,8 +6,7 @@ function App() {
   return (
     <div className="App">
       <Banner></Banner>
-
-<CardItem></CardItem>
+      <CardItem></CardItem>
     </div>
   );
 }
